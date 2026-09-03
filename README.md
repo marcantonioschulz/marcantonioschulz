@@ -1,4 +1,4 @@
-# Moin, ich bin Marc 👋
+<img src="assets/header.svg" alt="Moin, ich bin Marc 👋" width="100%">
 
 Ich baue Software, die echte Abläufe vereinfacht — vom Fintech-Tool bis zur Vereins-App. Am liebsten dort, wo Prozesse heute noch aus Zetteln, Zurufen und WhatsApp-Gruppen bestehen.
 
@@ -17,3 +17,10 @@ TypeScript · Next.js · React · PostgreSQL + Prisma · Tailwind · Docker (Sel
 Bestehende Systeme erweitern statt ersetzen · fail-closed · kein Overengineering — Postgres reicht meistens.
 
 🌐 [vermiet-it.de](https://vermiet-it.de)
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marcantonioschulz/marcantonioschulz/output/snake-dark.svg">
+  <img alt="Contribution-Snake" src="https://raw.githubusercontent.com/marcantonioschulz/marcantonioschulz/output/snake.svg" width="100%">
+</picture>

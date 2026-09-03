@@ -1,0 +1,64 @@
+<svg width="820" height="170" viewBox="0 0 820 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Moin, ich bin Marc">
+  <defs>
+    <linearGradient id="verlauf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4d4d">
+        <animate attributeName="stop-color" values="#ff4d4d;#ff9500;#ffd700;#ff4d4d" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#ff9500">
+        <animate attributeName="stop-color" values="#ff9500;#ffd700;#ff4d4d;#ff9500" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ffd700">
+        <animate attributeName="stop-color" values="#ffd700;#ff4d4d;#ff9500;#ffd700" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <style>
+    .titel {
+      font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+      fill: url(#verlauf);
+    }
+    .hand {
+      font: 46px 'Segoe UI', Ubuntu, sans-serif;
+      transform-origin: 340px 60px;
+      animation: winken 2.5s ease-in-out infinite;
+    }
+    @keyframes winken {
+      0%, 60%, 100% { transform: rotate(0deg); }
+      10%, 30% { transform: rotate(16deg); }
+      20%, 40% { transform: rotate(-8deg); }
+    }
+    .zeile {
+      font: 400 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+      fill: #8b949e;
+      opacity: 0;
+      animation: wechsel 16s linear infinite;
+    }
+    .zeile:nth-of-type(1) { animation-delay: 0s; }
+    .zeile:nth-of-type(2) { animation-delay: 4s; }
+    .zeile:nth-of-type(3) { animation-delay: 8s; }
+    .zeile:nth-of-type(4) { animation-delay: 12s; }
+    @keyframes wechsel {
+      0%, 2% { opacity: 0; }
+      6%, 20% { opacity: 1; }
+      24%, 100% { opacity: 0; }
+    }
+    .cursor {
+      fill: #ff9500;
+      animation: blinken 1s step-end infinite;
+    }
+    @keyframes blinken {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+  <text x="0" y="72" class="titel">Moin, ich bin Marc</text>
+  <text x="420" y="72" class="hand">👋</text>
+  <g>
+    <text x="0" y="130" class="zeile">🏦 Fintech-Tools für die Live-Beratung</text>
+    <text x="0" y="130" class="zeile">🤖 KI-Agenten — Voice, Vertrieb, Automation</text>
+    <text x="0" y="130" class="zeile">🚒 Das digitale Gerätehaus der Freiwilligen Feuerwehr</text>
+    <text x="0" y="130" class="zeile">⚙️ Next.js · TypeScript · Postgres · Claude Code</text>
+  </g>
+  <rect x="0" y="146" width="180" height="4" rx="2" fill="url(#verlauf)"/>
+  <rect x="184" y="146" width="10" height="4" rx="2" class="cursor"/>
+</svg>
