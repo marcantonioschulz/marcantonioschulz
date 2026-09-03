@@ -26,19 +26,6 @@ Bestehende Systeme erweitern statt ersetzen · fail-closed · kein Overengineeri
 
 🌐 [vermiet-it.de](https://vermiet-it.de)
 
-## Zahlen
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=marcantonioschulz&show_icons=true&theme=github_dark&hide_border=true&locale=de">
-    <img alt="GitHub-Statistik" src="https://github-readme-stats.vercel.app/api?username=marcantonioschulz&show_icons=true&theme=default&hide_border=true&locale=de" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=marcantonioschulz&theme=github-dark-blue&hide_border=true&locale=de">
-    <img alt="Beitrags-Streak" src="https://streak-stats.demolab.com?user=marcantonioschulz&hide_border=true&locale=de" height="165">
-  </picture>
-</p>
-
 ---
 
 <picture>
