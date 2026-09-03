@@ -1,7 +1,7 @@
 <img src="assets/header.svg" alt="Moin, ich bin Marc 👋" width="100%">
 
 <p>
-  <a href="https://vermiet-it.de"><img src="https://img.shields.io/badge/🌐_vermiet--it.de-ff9500?style=for-the-badge&logoColor=white" alt="Website"></a>
+  <a href="https://vermiet-it.de"><img src="https://img.shields.io/badge/🌐_vermiet--it.de-3178C6?style=for-the-badge&logoColor=white" alt="Website"></a>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">

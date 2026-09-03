@@ -1,14 +1,14 @@
 <svg width="820" height="170" viewBox="0 0 820 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Moin, ich bin Marc">
   <defs>
     <linearGradient id="verlauf" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff4d4d">
-        <animate attributeName="stop-color" values="#ff4d4d;#ff9500;#ffd700;#ff4d4d" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#3178C6">
+        <animate attributeName="stop-color" values="#3178C6;#06B6D4;#8B5CF6;#3178C6" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#ff9500">
-        <animate attributeName="stop-color" values="#ff9500;#ffd700;#ff4d4d;#ff9500" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#8B5CF6;#3178C6;#06B6D4" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#ffd700">
-        <animate attributeName="stop-color" values="#ffd700;#ff4d4d;#ff9500;#ffd700" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#3178C6;#06B6D4;#8B5CF6" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
   </defs>
@@ -43,7 +43,7 @@
       24%, 100% { opacity: 0; }
     }
     .cursor {
-      fill: #ff9500;
+      fill: #06B6D4;
       animation: blinken 1s step-end infinite;
     }
     @keyframes blinken {
